@@ -1,0 +1,58 @@
+%% sample.bib contains your publications
+
+% \cvsection{My Life Philosophy}
+
+% \begin{quote}
+% ``Something smart or heartfelt, preferably in one sentence.''
+% \end{quote}
+
+% \cvsection{Most Proud of}
+
+% \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
+
+% \divider
+
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+
+% \divider
+
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+
+%% Yeah I didn't spend too much time making all the 
+%% spacing consistent... sorry. Use \smallskip, \medskip, 
+%% \bigskip, \vpsace etc to make ajustments.
+\medskip
+
+\cvsection{Education}
+
+\cvevent{PHD, MPH, CHEMISTRY}{City University of New York}{Sept 2013 -- Jan 2018}{}
+\begin{itemize}
+\item Research area: Computational Molecular Biophysics; Subdiscipline: Nanotechnology
+\item Thesis title: "Computational investigation of the pore formation mechanism of beta-hairpin antimicrobial peptides"
+\end{itemize}
+
+\divider
+
+\cvevent{BA, PSYCHOLOGY, MUSIC}{Columbia University in the City of New York}{Sept 2000 -- May 2005}{}
+\begin{itemize}
+\item Concentration: Chemistry
+\item I. I. Rabi Science Scholar
+\end{itemize}
+
+\cvsection{Publications}
+
+\nocite{*}
+
+\printbibliography[keyword={page1},heading=pubtype,title={\printinfo{\faBook}{Online Articles}},type=online]
+
+\printbibliography[keyword={page1},heading=pubtype,title={\printinfo{\faFileText}{Journal Articles}},type=article]
+
+%\printbibliography[keyword={page1},heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}},type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
